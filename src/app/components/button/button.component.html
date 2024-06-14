@@ -11,6 +11,18 @@
       <span [innerHtml]="buttonProps.icon | htmlTransform" ></span>
     </button>
   }
+  @case ('link'){
+    <a [routerLink]="path" class="button button__primary">
+      <span>{{buttonProps.text}}</span>
+      <span [innerHtml]="buttonProps.icon | htmlTransform" ></span>
+    </a>
+  }
+  @case ('event'){
+    <button (click)="triggerEvent()" class="bg-custom-gradient button button__primary">
+      <span>{{buttonProps.text}}</span>
+      <span [innerHtml]="buttonProps.icon | htmlTransform" ></span>
+    </button>
+  }
   @default {
     <button class="button__default button">
       <span>{{buttonProps.text}}</span>

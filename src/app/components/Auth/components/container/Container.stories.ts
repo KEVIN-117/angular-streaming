@@ -11,4 +11,7 @@ export default meta
 type Story = StoryObj<ContainerComponent>
 
 export const Default: Story = {
+  args: {
+    hasContent: false,
+  }
 }

@@ -3,12 +3,14 @@ import {FormControl} from "@angular/forms";
 interface Form{
   name: FormControl<string | null>;
   lastName: FormControl<string | null>;
+  role: FormControl<string | null>;
   email: FormControl<string | null>;
   password: FormControl<string | null>;
 }
 
 export interface Credentials{
   email: string;
+  role: string;
   password: string;
 }
 
@@ -98,6 +100,12 @@ export class UserSchema{
       providerId: this.providerId
     }
   }
+}
+
+interface NavItem{
+  path: string,
+  label: string,
+  icon: string
 }
 
 export type FormDto = Form

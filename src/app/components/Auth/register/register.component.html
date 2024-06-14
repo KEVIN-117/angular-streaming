@@ -59,6 +59,28 @@
         </div>
 
         <div>
+          <label for="role" class="block text-sm font-medium leading-6 text-gray-600">
+            Role
+          </label>
+          <div class="mt-2">
+            <select id="role" name="role" formControlName="role" class="flex-1 relative block w-full appearance-none rounded-md border px-2.5 py-1.5 shadow-sm outline-none transition sm:text-sm border-gray-300 dark:border-gray-800 text-gray-600 placeholder-gray-400 dark:placeholder-gray-500 bg-gray-950">
+              <option value="Admin">
+                Administrador
+              </option>
+              <option value="Client">
+                Cliente
+              </option>
+            </select>
+          </div>
+          @if(form.get('role')?.hasError('pattern') && form.get('role')?.touched){
+            <p class="text-red-500 text-xs mt-1">
+              Role is Admin or User
+            </p>
+
+          }
+        </div>
+
+        <div>
           <label for="password" class="block text-sm font-medium leading-6 text-gray-600">
             Password
           </label>

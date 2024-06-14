@@ -8,11 +8,8 @@ import {Component, ContentChild, Input, TemplateRef} from '@angular/core';
   styleUrl: './container.component.scss'
 })
 export class ContainerComponent {
-  @Input() children!: HTMLElement;
-  @ContentChild(TemplateRef) templateRef!: TemplateRef<any>
-  hasContent = false;
+  @Input() hasContent = true;
   constructor() {
-    this.hasContent = !!this.templateRef;
   }
 
 }

@@ -3115,6 +3115,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@kurkle/color@npm:^0.3.0":
+  version: 0.3.2
+  resolution: "@kurkle/color@npm:0.3.2"
+  checksum: 10c0/a9e8e3e35dcd59dec4dd4f0105919c05e24823a96347bcf152965c29e48d6290b66d5fb96c071875db752e10930724c48ce6d338fefbd65e0ce5082d5c78970e
+  languageName: node
+  linkType: hard
+
 "@leichtgewicht/ip-codec@npm:^2.0.1":
   version: 2.0.5
   resolution: "@leichtgewicht/ip-codec@npm:2.0.5"
@@ -5554,6 +5561,7 @@ __metadata:
     "@types/jasmine": "npm:~5.1.0"
     "@types/node": "npm:^18.18.0"
     autoprefixer: "npm:^10.4.19"
+    chart.js: "npm:^4.4.3"
     express: "npm:^4.18.2"
     jasmine-core: "npm:~5.1.0"
     karma: "npm:~6.4.0"
@@ -5564,6 +5572,7 @@ __metadata:
     postcss: "npm:^8.4.38"
     rxjs: "npm:~7.8.0"
     storybook: "npm:^8.1.6"
+    sweetalert2: "npm:^11.11.1"
     tailwindcss: "npm:^3.4.3"
     tslib: "npm:^2.3.0"
     typescript: "npm:~5.4.2"
@@ -6238,6 +6247,15 @@ __metadata:
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
   checksum: 10c0/96e4731b9ec8050cbb56ab684e8c48d6c33f7826b755802d14e3ebfdc51c57afeece3ea39bc6b09acc359e4363525388b915e16640c1378053820f5e70d0f27d
+  languageName: node
+  linkType: hard
+
+"chart.js@npm:^4.4.3":
+  version: 4.4.3
+  resolution: "chart.js@npm:4.4.3"
+  dependencies:
+    "@kurkle/color": "npm:^0.3.0"
+  checksum: 10c0/910113b07983d1b2f52689afcd88d0c5fecbd30fbbe89f4e122d78397fd4521e1563fd6d80f7742a391abe7cfbfa8deaf12c58b83c9636431fa77e7285d85c2e
   languageName: node
   linkType: hard
 
@@ -13294,6 +13312,13 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 10c0/6c4032340701a9950865f7ae8ef38578d8d7053f5e10518076e6554a9381fa91bd9c6850193695c141f32b21f979c985db07265a758867bac95de05f7d8aeb39
+  languageName: node
+  linkType: hard
+
+"sweetalert2@npm:^11.11.1":
+  version: 11.11.1
+  resolution: "sweetalert2@npm:11.11.1"
+  checksum: 10c0/ba42a26f32a841fee3a318052673786b53781c3616f33def30442d3ce3f361f72441322bd74255ef765a30be95c1b3fa6648eb81a10d4956c1714a963c9a1027
   languageName: node
   linkType: hard
 

@@ -2,7 +2,7 @@ import { componentWrapperDecorator } from '@storybook/angular';
 import type { Meta, StoryObj } from "@storybook/angular"
 import { LogInComponent } from "./log-in.component"
 
-import "@/app/globals/_variables.scss"
+import "../../../../../../angular-streaming/src/app/globals/_variables.scss"
 
 const meta: Meta = {
   component: LogInComponent,

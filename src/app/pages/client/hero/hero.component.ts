@@ -1,10 +1,10 @@
 import {Component, Input, ElementRef, OnInit, ViewChild, Output} from '@angular/core';
-import { MovieProps} from "@app/components/hero/types";
+import { MovieProps} from "@pages/client/hero/types";
 import { TimeFormatterPipe } from '@/app/core/pipes/time-formatter.pipe'
 import { ButtonComponent } from '@components/button/button.component'
 import {DatePipe} from "@angular/common";
 import {ButtonProps} from "@components/button/types";
-import {CastComponent} from "@components/cast/cast.component";
+import {CastComponent} from "@pages/client/cast/cast.component";
 
 @Component({
   selector: 'app-hero',

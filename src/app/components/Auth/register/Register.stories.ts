@@ -2,7 +2,7 @@ import {componentWrapperDecorator, moduleMetadata} from '@storybook/angular';
 import type { Meta, StoryObj } from '@storybook/angular'
 import { RegisterComponent } from "./register.component"
 
-import '@/app/globals/_variables.scss'
+import '../../../../../../angular-streaming/src/app/globals/_variables.scss'
 
 
 const meta:Meta = {

@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {CastProps} from "@components/hero/types";
+import {CastProps} from "@pages/client/hero/types";
 
 @Component({
   selector: 'app-cast',

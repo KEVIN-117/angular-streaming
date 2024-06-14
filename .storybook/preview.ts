@@ -1,5 +1,5 @@
 import {moduleMetadata, Preview} from "@storybook/angular";
-import { RouterTestingModule } from "@angular/router/testing"
+import { RouterTestingModule} from "@angular/router/testing"
 
 export const decorators = [
   moduleMetadata({

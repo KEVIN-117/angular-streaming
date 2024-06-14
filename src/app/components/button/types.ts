@@ -1,6 +1,6 @@
 interface ButtonProps {
   text: string;
-  variant: 'primary' | 'secondary' | 'default';
+  variant: 'primary' | 'secondary' | 'default' | 'link' | 'event';
   icon: string;
 }
 
